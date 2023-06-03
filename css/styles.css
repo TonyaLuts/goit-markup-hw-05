@@ -544,8 +544,8 @@ img {
 .portfolio-link {
   display: block;
 
-  transition-property: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover,
